@@ -1,3 +1,5 @@
 {
-    "python.pythonPath": "/Users/sho/.local/share/virtualenvs/choisu_net-3syvdxES/bin/python"
+    "python.pythonPath": "/Library/Frameworks/Python.framework/Versions/3.8/bin/python3",
+    "python.linting.flake8Enabled": true,
+    "python.linting.enabled": true
 }
