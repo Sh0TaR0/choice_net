@@ -1,1 +1,1 @@
-web: gunicorn choisu_net.wsgi --log-file -
+web: gunicorn choisu_net.wsgi
