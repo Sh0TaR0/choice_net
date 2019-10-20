@@ -23,7 +23,7 @@ BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 # SECURITY WARNING: keep the secret key used in production secret!
 if not DEBUG:
     SECRET_KEY = os.environ['SECRET_KEY']
-    import django_heroku
+
     django_heroku.settings(locals())
 
 # SECURITY WARNING: don't run with debug turned on in production!
