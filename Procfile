@@ -1,0 +1,1 @@
+web: gunicorn choisu_net.wsgi
