@@ -1,1 +1,1 @@
-web: gunicorn choisu_net.wsgi
+web: gunicorn choisu_net.wsgi --log-file -' > Procfile
